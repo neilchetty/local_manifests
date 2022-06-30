@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="crdroidandroid"
-           fetch="https://github.com/crdroidandroid"
+  <remote  name="neilchetty"
+           fetch="https://github.com/neilchetty"
            revision="12.1"/>
-  <remote  name="kdrag0n"
-           fetch="https://github.com/kdrag0n"
-           revision="12.1"/>
-  <project path="device/realme/RMX3031" name="android_device_realme_RMX3031" remote="crdroidandroid" revision="12.1"/>
-  <project path="vendor/realme/RMX3031" name="proprietary_vendor_realme_RMX3031" remote="crdroidandroid" revision="12.1"/>
-  <project path="vendor/realme/IMS-RMX3031" name="proprietary_vendor_realme_RMX3031-IMS" remote="crdroidandroid" revision="12.1"/>
-  <project path="kernel/realme/RMX3031" name="android_kernel_realme_RMX3031" remote="crdroidandroid" revision="12.1" clone-depth="1"/>
-  <project path="prebuilts/clang/host/linux-x86/clang-6443078" name="android_prebuilts_clang_host_linux-x86_clang-6443078" remote="crdroidandroid" revision="10.0" clone-depth="1"/>
-  <project path="prebuilts/clang/host/linux-x86/proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1"/>
+  <project path="device/realme/RMP2102" name="android_device_realme_RMP2102" remote="neilchetty" revision="12.1"/>
+  <project path="vendor/realme/RMP2102" name="android_vendor_realme_RMP2102" remote="neilchetty" revision="12.1"/>
+  <project path="kernel/realme/RMP2102" name="android_kernel_realme_RMP2102" remote="neilchetty" revision="12.1" clone-depth="1"/>
+  <project path="prebuilts/clang/host/linux-x86/clang-6443078" name="android_prebuilts_clang_host_linux-x86_clang-6443078" remote="neilchetty" revision="11.0.1" clone-depth="1"/>
 </manifest>
