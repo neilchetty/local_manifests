@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="neilchetty"
+           fetch="https://github.com/neilchetty"
+           revision="12.1"/>
   <remote  name="crdroidandroid"
            fetch="https://github.com/crdroidandroid"
            revision="12.1"/>
   <remote  name="kdrag0n"
            fetch="https://github.com/kdrag0n"
            revision="12.1"/>
-  <project path="device/realme/RMX3031" name="android_device_realme_RMX3031" remote="crdroidandroid" revision="12.1"/>
-  <project path="vendor/realme/RMX3031" name="proprietary_vendor_realme_RMX3031" remote="crdroidandroid" revision="12.1"/>
-  <project path="vendor/realme/IMS-RMX3031" name="proprietary_vendor_realme_RMX3031-IMS" remote="crdroidandroid" revision="12.1"/>
-  <project path="kernel/realme/RMX3031" name="android_kernel_realme_RMX3031" remote="crdroidandroid" revision="12.1" clone-depth="1"/>
+  <project path="device/xiaomi/lava" name="android_device_xiaomi_lava" remote="neilchetty" revision="12.1"/>
+  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="neilchetty" revision="12.1"/>
+  <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="neilchetty" revision="12.1"/>
+  <project path="vendor/xiaomi/mt6768-IMS" name="android_vendor_xiaomi_mt6768-IMS" remote="neilchetty" revision="12.1"/>
+  <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="neilchetty" revision="12.1" clone-depth="1"/>
   <project path="prebuilts/clang/host/linux-x86/clang-6443078" name="android_prebuilts_clang_host_linux-x86_clang-6443078" remote="crdroidandroid" revision="10.0" clone-depth="1"/>
   <project path="prebuilts/clang/host/linux-x86/proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1"/>
 </manifest>
